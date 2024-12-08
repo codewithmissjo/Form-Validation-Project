@@ -1,0 +1,25 @@
+1. Create a new flask project
+
+2. Create variables to store usernames and a password:
+    usernames = ["missjo", "rohan", "jasraj", "andrew", "rahul", "yutika"]
+    password = "password"
+
+3. Build a form with 3 form fields:
+    a. username
+    b. password
+    c. confirm password
+
+4. Write a route/function to process the form using the following logic:
+    a. If the username is already taken:
+        return an error.
+    b. else the username is available:
+        proceed with the next validation check.
+    c. check that the two password fields match.
+    d. if they don't, return an error.
+    e. if they do match, add the username to the database, and return success.
+
+
+NEXT UP
+Helpful error messages.
+Sign in page.
+Bootstrap for Client Side validation.
