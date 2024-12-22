@@ -18,8 +18,15 @@
     d. if they don't, return an error.
     e. if they do match, add the username to the database, and return success.
 
+Helpful error messages.
+5. Add code to your error.html and your app.py so that helpful error messages are provided when an error is given.
+
+Sign in page.
+6. In normal, conversational language, write out the logic for a sign-in form. To get you started: a) If the username is in the list of saved usernames, proceed with the next form validation check (password).
+    a) if the username is in the list of saved usernames, continue.
+        1) if the password the user typed in is the correct password, log them in.
+        2) if not, error.
+    b) if the username is NOT in the list of saved usernames, error.
 
 NEXT UP
-Helpful error messages.
-Sign in page.
 Bootstrap for Client Side validation.
